@@ -17,6 +17,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-manager-impl/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-main/pom.xml" />
+        <option value="$PROJECT_DIR$/scw-register/pom.xml" />
+        <option value="$PROJECT_DIR$/scw-user/pom.xml" />
+        <option value="$PROJECT_DIR$/scw-project/pom.xml" />
+        <option value="$PROJECT_DIR$/scw-order/pom.xml" />
+        <option value="$PROJECT_DIR$/scw-parent/pom.xml" />
       </list>
     </option>
   </component>

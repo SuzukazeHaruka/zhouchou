@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="scw-register" />
         <module name="atcrowdfunding-common" />
         <module name="atcrowdfunding-bean" />
-        <module name="atcrowdfunding" />
+        <module name="scw-project" />
         <module name="atcrowdfunding-manager-api" />
         <module name="atcrowdfunding-manager-impl" />
+        <module name="scwcommon" />
+        <module name="scw-user" />
         <module name="atcrowdfunding-main" />
+        <module name="scw-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +26,21 @@
       <module name="atcrowdfunding-manager-api" target="1.5" />
       <module name="atcrowdfunding-manager-impl" target="8" />
       <module name="atcrowdfunding-parent" target="1.5" />
+      <module name="scw-order" target="1.8" />
+      <module name="scw-parent" target="1.8" />
+      <module name="scw-project" target="1.8" />
+      <module name="scw-register" target="1.8" />
+      <module name="scw-user" target="1.8" />
+      <module name="scwcommon" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="scw-order" options="-parameters" />
+      <module name="scw-parent" options="-parameters" />
+      <module name="scw-project" options="-parameters" />
+      <module name="scw-register" options="-parameters" />
+      <module name="scw-user" options="-parameters" />
+    </option>
   </component>
 </project>

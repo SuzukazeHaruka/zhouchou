@@ -2,6 +2,11 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/atcrowdfunding-main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scw-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scw-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scw-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scw-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scw-user" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
